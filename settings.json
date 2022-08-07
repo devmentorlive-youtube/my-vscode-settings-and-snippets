@@ -1,0 +1,63 @@
+{
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[markdown]": {
+    "editor.tabSize": 4
+  },
+  "workbench.editor.labelFormat": "short",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "typescript.validate.enable": false,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Space Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 20,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.parameterHints.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.jsxBracketSameLine": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.suggest.autoImports": false,
+  "workbench.startupEditor": "none",
+  "breadcrumbs.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
+  "workbench.editor.enablePreview": false,
+  "editor.inlineSuggest.enabled": true,
+  "terminal.external.osxExec": "iTerm.app",
+  "editor.renderLineHighlight": "all",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#3d3d3d",
+    "editor.lineHighlightBorder": "#535353"
+  },
+  "emmet.extensionsPath": ["~/.vscode"],
+  "emmet.showSuggestionsAsSnippets": true,
+  "tailwindCSS.emmetCompletions": true,
+  "files.exclude": {
+    "**/.next": true,
+    "**/node_modules": true
+  },
+  "workbench.editor.openPositioning": "left",
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.explorerKind": "external",
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "git.autofetch": true,
+  "liveServer.settings.multiRootWorkspaceName": "",
+  "liveServer.settings.NoBrowser": true,
+  "editor.formatOnSave": true,
+  "emmet.triggerExpansionOnTab": true,
+  "window.zoomLevel": 2
+}

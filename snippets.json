@@ -1,0 +1,21 @@
+{
+  "html": {
+    "snippets": {
+      "label": "<label>$1</label>",
+      "div": "<div>$1</div>",
+      "li": "<li>$1</li>",
+      "select": "<select>$1</select>"
+    }
+  },
+  "javascriptreact": {
+    "snippets": {
+      "label": "<label>$1</label>",
+      "div": "<div>$1</div>",
+      "li": "<li>$1</li>",
+      "select": "<select>$1</select>"
+    }
+  },
+  "css": {
+    "snippets": {}
+  }
+}
