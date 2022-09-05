@@ -1,0 +1,21 @@
+{
+  "name": "devmentorlivetheme",
+  "displayName": "DevmentorLiveTheme",
+  "description": "DevmentorLiveStream Color Scheme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "React-JavaScript-Mentorship-DevmentorLive",
+        "uiTheme": "vs-dark",
+        "path": "./themes/devmentor-live-color-theme.json"
+      }
+    ]
+  }
+}

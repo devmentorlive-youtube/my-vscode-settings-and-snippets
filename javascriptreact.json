@@ -1,0 +1,75 @@
+{
+  // Place your snippets for javascriptreact here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+  "Import useState from React": {
+    "prefix": "ius",
+    "body": "import { useState } from \"react\";"
+  },
+  "Import useEffect from React": {
+    "prefix": "iue",
+    "body": "import { useEffect } from \"react\";"
+  },
+  "Import useRouter from React": {
+    "prefix": "iur",
+    "body": "import { useRouter } from \"next/router\";"
+  },
+  "Create a getServerSideProps": {
+    "prefix": "gssp",
+    "body": [
+      "export function getServerSideProps(ctx) {",
+      "\t$1",
+      "\treturn {",
+      "\t\t$props: {",
+      "\t\t\t$2",
+      "\t\t}",
+      "\t}",
+      "}"
+    ]
+  },
+  "Create a React Fragment": {
+    "prefix": "frag",
+    "body": ["<>$1</>"],
+    "description": "Create a React Fragment"
+  },
+  "Create a React Component": {
+    "prefix": "rc",
+    "body": ["export default function $1({$2}) {", "\treturn $3", "}"],
+    "description": "Create a React Component"
+  },
+  "Create an exported default function": {
+    "prefix": "edf",
+    "body": ["export default function $1({$2}) {", "\treturn $3", "}"],
+    "description": "Create a React Component"
+  },
+  "Create React local state": {
+    "prefix": "us",
+    "body": ["const [$1, set$2] = useState($3)"],
+    "description": "Create local state"
+  },
+  "Create a React Effect": {
+    "prefix": "ue",
+    "body": ["useEffect(() => {", "\t$1", "}, [$2])"],
+    "description": "Create a React Effect"
+  },
+  "Create an InlineSnippet": {
+    "prefix": "is",
+    "body": ["<InlineSnippet>$1</InlineSnippet>"],
+    "description": "Create an InlineSnippet"
+  },
+  "Create a BlockSnippet": {
+    "prefix": "bs",
+    "body": ["<BlockSnippet language=\"jsx\"", "code={`", "$1", "`}", "/>"],
+    "description": "Create a BlockSnippet"
+  }
+}

@@ -1,0 +1,82 @@
+{
+	"name": "vscode-field-lights",
+	"displayName": "Field Lights Theme",
+	"description": "A dark Visual Studio Theme inspired by the great Ayu (Mirage) theme but adding some personal taste customizations",
+	"version": "0.0.11",
+	"publisher": "sveggiani",
+	"engines": {
+		"vscode": "^1.20.0"
+	},
+	"author": {
+		"name": "Sebastián Veggiani (sveggiani[at]gmail.com)"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"icon-theme",
+		"dark",
+		"clean",
+		"field-lights"
+	],
+	"icon": "assets/theme_icon.png",
+	"galleryBanner": {
+		"color": "#212733",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Field Lights",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Field Lights-color-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "field-lights",
+				"label": "Field Lights",
+				"path": "./icons/definition/field-lights-icons.json"
+			},
+			{
+				"id": "field-lights-monochrome",
+				"label": "Field Lights Monochromatic",
+				"path": "./icons/definition/field-lights-icons-mono.json"
+			},
+			{
+				"id": "field-lights-minimalistic",
+				"label": "Field Lights (Minimalistic)",
+				"path": "./icons/definition/field-lights-icons-mini.json"
+			},
+			{
+				"id": "field-lights-monochrome-minimalistic",
+				"label": "Field Lights Monochromatic (Minimalistic)",
+				"path": "./icons/definition/field-lights-icons-mono-mini.json"
+			}
+		]
+	},
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"homepage": "https://github.com/sveggiani/vscode-field-lights/blob/master/README.md",
+	"bugs": {
+		"url": "https://github.com/sveggiani/vscode-field-lights/issues",
+		"email": "sveggiani@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sveggiani/vscode-field-lights"
+	},
+	"dependencies": {
+		"npm": "^5.8.0"
+	},
+	"__metadata": {
+		"id": "540c422b-bb90-470c-a130-e4c3aa473f9f",
+		"publisherId": "1096ef67-8412-4b9a-8820-97b022b8896c",
+		"publisherDisplayName": "Sebastián Veggiani",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1662848427228
+	}
+}
